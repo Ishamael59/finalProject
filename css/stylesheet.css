@@ -1,46 +1,41 @@
+/****Base Styles ************/
+/*                          */
+/***************************/
 * {
-margin: 0;
-padding: 0;
+	box-sizing:border-box;
 }
-
-body {
-  background-color:cornflowerblue;
-  width:95%;
-  margin:auto;
-  min-width:200px;
+.container {
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	text-align:center;
+	font-family:verdana;
+	
 }
-header,
-footer {
-  text-align:center;
-  background-color:green;
-  max-height:200px;
+.header {
+	background:#000000;
+	color:#FEC100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************/
-/*      clearfix        */
-/************************/
-
-clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.navigation {
+	background:lightblue;
+}
+a:link, a:visited {
+  text-decoration:none;
+  display:block;
+  padding:.5em;
+  
+  margin:.25em;
+}
+.featured-content{
+	background:orange;
+}
+.primary-content {
+	background:gray;
+}
+.secondary-content {
+	background:lime;
+}
+.footer {
+	background:#000000;
+	color:#FEC100;
 }

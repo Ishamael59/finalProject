@@ -1,0 +1,71 @@
+﻿* {
+  box-sizing:border-box;
+
+}
+.navigation {
+  text-align:center;
+  background-color:gray;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+a:link, a:visited {
+  text-decoration:none;
+  display:block;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+a:hover {
+  background-color:white;
+}
+
+body {
+  background-color:black;
+  color:white;
+  font-family:"Nunito", sans-serif;
+  min-width:200px;
+}
+header,
+footer {
+  text-align:center;
+  background-color:green;
+  max-height:200px;
+}
+h1,h2 {
+  padding-top:.25em;
+  padding-bottom:.25em;
+  margin:auto;
+}
+
+
+/* Media Queries----- The following will resize the project to fit different screens */
+@media (max-width:768px) {
+  .container {
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************/
+/*      clearfix        */
+/************************/
+
+clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
