@@ -7,7 +7,7 @@
     	<title>Champions Gourmet Popcorn</title>
 <!--This page contains two different stylesheets, one to normalise the page in different browsers, the other is custom styling -->
 		<link rel="stylesheet" href="css/normalize.css" type="text/css">
-   	 <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+   	    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
   	</head>
 
 
@@ -15,17 +15,30 @@
   <body>
 	 <div class="container">
 		<header class="header">
-<!--add a banner image here that the following headdings go into-->
 			<h1>Champions Gourmet Popcorn</h1>
-				<p>img left of the logo</p>
-					<p>This will be the company logo</p>
-				<p>img right of the logo</p>	
+			
+			<div class="head-images">
+				<div class="img-left">
+					<img src="images/popcorn_box_edit.jpg">
+				</div>	
+			
+				<div class="company_logo">
+					<img src="images/company_logo_edit1.jpg">
+				</div>
+			
+				<div class="img-right">			
+					<img src="images/popcorn_box_edit.jpg">	
+				</div>	
+			</div>
 			
 			<h2>"Popped Fresh Daily"</h2>
 		</header>
 
 <!--navigation buttons on top of the page -->
         <div class="navigation">
+			<div class="asideNav">
+<!--work on this next -->
+			</div>
 			<div class="nav">
 				<a href="#">Home</a>
 			</div>
@@ -41,8 +54,17 @@
 			<div class="nav">
 				<a href="#">Contact Us</a>
 			</div>
+			<div class="asideNav">
+<!-- work on this next -->
+			</div>
         </div>
 
+<!--This space is reserved for news and alerts -->			
+			<div class="news"> 
+				<h3>Latest News:</h3>
+				<p>Website is up and running, You can now order your favorite popcorn online!.</p>	
+			</div>
+			
 <!-- This is the feature of the page and will be the focus content of the page -->
 			<div class ="featured-content">
 				<h3>This Months special</h3>
@@ -51,13 +73,20 @@
 				</div>
 				<div class="featured-description">
 					<p>Description of feature</p>
-				</div>	
-<!--This is the main content of the page -->				
+				</div>					
 			</div>
+			
+<!--This is the main content of the page -->			
 			<div class="primary-content">
 				<p>We have a flavor of poprcorn for everyone. Try our Sweet, Spicy,
 				or Savory flavors.</p>
+				<div>
+					<p>Sweet</p>
+					<p>Savory</p>
+					<p>Spicy</p>
+				</div>	
 			</div>
+			
 <!--This is the secondary content of the page  -->			
 			<div class="secondary-content">
 				<p>While we specialise in having a wide varity of great tasting popcorn,
@@ -65,11 +94,20 @@
 				
 			</div>
 
-
 <!--This is the footer information, this tells the site date and last revision.-->
 			<div class="footer">
-				<img src="images/facebook_logo.png">
-				<p>facebook logo, twitter logo, email link</p>
+				<h2>Join our mailing list. Be the first to learn about our specials and special events!<h2>
+				<div class="email">
+					<input type="text" name="email" placeholder="Enter your email">
+					<button type="submit">Submit</button>
+				</div>
+				<h3>Follow us on social media.</h3>
+				<div class="icon-row">
+					<img class="contact-icon" src="images/facebook_icon.png">
+					<img class="contact-icon" src="images/twitter_icon.png">
+					<img class="contact-icon" src="images/instagram_icon.png">
+					<img class="contact-icon" src="images/snapchat_icon.png">
+				</div>
 				<p>Champions Gourmet popcorn &copy 2018 - Jimmy Morgan</p>
 			</div>
 
